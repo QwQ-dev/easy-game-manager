@@ -1,0 +1,6 @@
+thread-pool:
+  core-pool-size: 8
+  max-pool-size: 16
+  queue-capacity: 100
+  keep-alive-seconds: 60
+  thread-name-prefix: "EGMThread-"

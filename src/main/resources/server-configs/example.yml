@@ -1,0 +1,29 @@
+# 服务端名称
+name: "example-server"
+
+# 服务端源文件地址
+source-file-dir: "D:/Projects/MinecraftTest/BW"
+# 服务端复制目标地址
+target-file-dir: "D:/Projects/MinecraftTest/BW" # 不要在最后添加 '/'
+
+# 端口范围
+port-min: 20000
+port-max: 20100
+
+# {target-path}
+run-node:
+  windows-run:
+    commands:
+      - "{target-path}/test.bat"
+
+#  linux-chmod:
+#    commands:
+#      - "chmod"
+#      - "755"
+#      - "/path/to/script.sh"
+#
+#  linux-run:
+#    commands:
+#      - "/bin/bash"
+#      - "-c"
+#      - "path/to/run-jar.sh"
